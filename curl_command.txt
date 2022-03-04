@@ -1,0 +1,19 @@
+curl -v https://api.airtable.com/v0/appW4MokjHJtpYEYP/Scorecards \
+  -H "Authorization: Bearer keycRyr1N4st5OcZY" \
+  -H "Content-Type: application/json" \
+  --data '{
+  "records": [
+    {
+      "fields": {
+        "Team Name": "PoopyPants",
+        "Climb 1: Number": 2,
+        "Participant Name": "Anthony Perugini",
+        "Climb 1: Flash?": false,
+        "Climb 2: Number": 3,
+        "Climb 3: Number": 2,
+        "Climb 4: Number": 2,
+        "Climb 5: Number": 2
+      }
+    }
+  ]
+}'
